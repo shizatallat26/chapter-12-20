@@ -40,23 +40,35 @@
 // // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
 
 
-// for(var i = 1; i <=15; i++){
-//     console.log(i);
+// document.write("<br /><br /> <br /><h1>Counting</h1><br />");
+// for(var i = 1;i <= 15; i++){
+//     document.write([i] + ",");
 // }
 
-// for (i = 10; i > 0; i--){
-//     console.log(i);
+// document.write("<br /><br /> <br /><h1>Counting</h1><br />");
+// for(var i = 10; i > 0; i--){
+//     document.write([i] + ",");
 // }
 
-// for(var i = 0; i <= 20; i++){
-//     if(i % 2 === 0){
-//     console.log(i);
-//     }
+
+// document.write("<br /><br /> <br /><h1>Even</h1><br />");
+//     for(var i = 0; i <= 20; i++){
+//         if(i % 2 === 0){
+//         document.write([i] + ",");
+//      }
 // }
 
-// for(var i = 0; i <= 20; i++){
+// document.write("<br /><br /> <br /><h1>Odd</h1><br />");
+//     for(var i = 0; i <= 20; i++){
 //         if(i % 2 !== 0){
-//         console.log(i);
+//         document.write([i] + ",");
+//      }
+// }
+
+// document.write("<h1>Series</h1>")
+// for(var i = 1; i<=20; i++){
+//     if(i % 2 == 0){
+//         document.write(i + "k,");
 //     }
 // }
 
